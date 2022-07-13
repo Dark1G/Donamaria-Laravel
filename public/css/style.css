@@ -1,0 +1,300 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: helvetica;
+    src: url(../fonts/HelveticaThn.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body { 
+    box-sizing: border-box; 
+    width: 100%;
+    margin: 0 auto; 
+}
+
+.qfix{
+    padding-top: 25px!important;
+    padding-bottom: 25px!important;
+}
+
+.fixl{
+    padding-top:10px;
+}
+
+.selcena{
+    text-align: center;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+
+nav, navbar-nav, navbar-right {
+    font-family: helvetica;
+    font-size: 17px;
+    color: #c22f35;
+    line-height: 10px;
+}
+
+.bannerlogo{
+    width: 50px;
+}
+
+.pedidoementa{
+    display: block;
+    width: auto;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pedidogarrafa{
+    display: block;
+    height: 100px;
+    width: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.adminmenu{
+    width: 130px;
+}
+
+.admingarraf{
+    height: 100px;
+    width: auto;
+}
+
+.centro{
+    text-align: center;
+}
+
+.selecdiv{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container{
+    margin-top: 80px;
+    margin-bottom:80px;
+    background-color:#f8f8f8; 
+}
+
+.textemp{
+    padding: 20px;
+}
+
+.titemp{
+    font-family: helvetica;
+    color:#c22f35; 
+}
+
+.subtit{
+    font-family: helvetica;
+}
+
+.linha{
+    border-top:20px solid #c22f35
+}
+
+.footcopy{
+    background-color: #f8f8f8;
+}
+
+.copytxt{
+    padding-top: 10px;
+    font-family: helvetica;
+    font-size: 14px;
+    color: #c22f35;
+    text-align: center;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.cenatest{
+  background-color: black;
+}
+
+.imghome{
+  width: auto;
+  height: 200px;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.imgal{
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .main {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+#login-dp{
+    min-width: 250px;
+    overflow:hidden;
+    background-color:rgb(255,255,255);
+}
+
+#login-dp p{
+    padding: 14px 14px 0;
+    color: black;
+}
+
+#login-dp .rem{
+    color: black;
+}
+
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgb(255,255,255);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
